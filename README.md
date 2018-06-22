@@ -1,2 +1,2 @@
-# ora_pc
-ora: pc
+# pc
+PC 端站点

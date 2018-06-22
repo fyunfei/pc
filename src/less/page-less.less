@@ -1,0 +1,182 @@
+/*
+* created by smpower
+* email: bzsjxhywrf@outlook.com
+* github: https://github.com/smpower/
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  &:hover {
+    color: #fff;
+  }
+}
+
+@font-color: #2d2d2d;
+@letter-spacing: 2.5px;
+
+.background-size (@method) {
+  -webkit-background-size: @method;
+  background-size: @method;
+}
+
+.nav .inner ul li.active {
+  background-color: #fd3232;
+  color: #fff;
+}
+
+
+.banner {
+  background: url("../img/views/banner.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 885px;
+}
+
+
+/* 模块公共样式 */
+.module {
+  .title {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: @font-color;
+    h2 {
+      font-weight: bold;
+      font-size: 40px;
+    }
+    .subtitle {
+      font-size: 14px;
+      letter-spacing: @letter-spacing;
+    }
+  }
+}
+//--> 标题部分公共样式
+.module-title {
+  .line {
+    width: 100%;
+    border-top: 2px solid #d6d5d5;
+    position: relative;
+    top: 66px;
+  }
+  .txt {
+    margin: 0 auto;
+    position: relative;
+    bottom: -38px;
+    color: #2d2d2d;
+    h2 {
+      font-size: 40px;
+      font-weight: bold;
+      padding-bottom: 14px;
+    }
+    p {
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #ccc;
+    }
+  }
+}
+.main-inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 模块公共样式 */
+
+
+
+.child-page {
+  max-width: 1920px;
+
+  //--> 页面 1200px 并居中于页面
+  .main-inner {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* 模块一：导师简介 */
+  .module.module-01 {
+
+    //--> 模块一标题
+    .module-title {
+      .txt {
+        width: 403px;
+        background: url("../img/views/title-icon03.png") no-repeat center 8px;
+      }
+    }
+
+    //--> 模块一主体
+    .main {
+      width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      .pic {
+        width: 442px;
+        height: 558px;
+        margin: 75px auto 0;
+        img {
+          width: 100%;
+        }
+      }
+      .content {
+        border: 1px solid #2d2d2d;
+        border-radius: 10px;
+        padding: 15px 15px 0;
+        height: 400px;
+        margin-top: 12px;
+        p {
+          font-size: 16px;
+          color: #383838;
+          line-height: 30px;
+        }
+        p.title {
+          font-size: 24px;
+          font-weight: bold;
+          height: 50px;
+          line-height: 50px;
+          color: #2d2d2d;
+        }
+        .mentor {
+          display: flex;
+          flex-direction: column;
+          p.intro {
+            color: #fd3232;
+          }
+        }
+        .mentor-intro {
+
+        }
+        .mentor-des {
+
+        }
+        .mentor-say {
+          p:nth-child(2) {
+            padding-bottom: 20px;
+          }
+        }
+      }
+      .box-line {
+        position: absolute;
+        bottom: -5px;
+        left: 5px;
+        width: 100%;
+        height: 400px;
+        border: 1px solid #898989;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+      }
+    }
+
+  }
+  /* /模块三：导师简介 */
+
+}
