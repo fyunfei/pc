@@ -323,6 +323,7 @@ a:hover {
   top: 435px;
   left: 1465px;
 }
+.child-page .module.module-07 .main .team-group .pic-nine img { width: 100%; }
 .child-page .module.module-08 .module-title .txt {
   width: 403px;
   background: url("../img/course/title-icon08.png") no-repeat center 8px;
