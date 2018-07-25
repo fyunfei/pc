@@ -6,7 +6,7 @@
 	 * 动态更新导师姓名
 	*/
 	var mentors = {
-	  mentor001: '嘉伟',
+	  mentor001: '诺亚',
 		mentor002: '茉言',
 		mentor003: '阿苏',
 		mentor004: '子叶',
