@@ -13,7 +13,7 @@
 		mentor005: '佳馨',
 		mentor006: '皓霖',
 		mentor007: '孑然',
-		mentor008: '柒月',
+		mentor008: '青恩',
 		mentor009: 'Hope',
 		mentor010: '谧沙',
 		mentor011: '诺亚'
