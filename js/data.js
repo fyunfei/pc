@@ -116,7 +116,8 @@ var data = (function () {
         'page5' : '孑然导师',
         'page6' : '佳馨导师',
         'page7' : '心怡导师',
-        'page8' : '柒月导师'
+        'page8' : '柒月导师',
+				'page11': '诺亚导师'
       }
     },
     stateMap = {

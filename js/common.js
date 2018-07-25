@@ -16,6 +16,7 @@
 		mentor008: '柒月',
 		mentor009: 'Hope',
 		mentor010: '谧沙'
+		mentor011: '诺亚'
 	};
 
 	var updateMentorName = function(targetDom, mentorName) {
