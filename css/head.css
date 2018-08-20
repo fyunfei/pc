@@ -169,6 +169,7 @@ header .inner .pull-right .txt p:last-child {
   display: flex;
   justify-content: space-around;
   line-height: 50px;
+  height: 50px;
 }
 
 .nav .inner ul li {
