@@ -30,7 +30,7 @@ var header = (function () {
               + '</div>'
             + '</div>'
             + '<div class="txt">'
-              + '<p>橘子情感官方App</p>'
+              + '<p class="txtapp">橘子情感官方App</p>'
               + '<p>免费情感热线电话</p>'
               + '<p>4006-299-520</p>'
             + '</div>'
@@ -51,7 +51,8 @@ var header = (function () {
     jqueryMap = {
       $header : $header,
       $qrcode : $header.find('.qrcode-wechat img'),
-      $wechat : $header.find('.wechat')
+      $wechat : $header.find('.wechat'),
+      $p　　　: $header.find('.txtapp')
     };
   };
 
@@ -69,7 +70,7 @@ var header = (function () {
       $('header .pull-left img').attr('src', '../img/index/logo-word.jpg');
 
       $('header .pull-right .icon .qrcode-wechat img')
-        .attr('src', '../img/index/icon-wechat-red.jpg');
+        .attr('src', '../img/index/icon-app-red.png');
 
       $('header .pull-right .icon .num-phone img')
         .attr('src', '../img/index/icon-phone-red.jpg');
@@ -108,6 +109,12 @@ var header = (function () {
       jqueryMap.$wechat.toggle();
     });
     jqueryMap.$qrcode.mouseleave(function () {
+      jqueryMap.$wechat.toggle();
+    });
+    jqueryMap.$p.mouseover(function () {
+      jqueryMap.$wechat.toggle();
+    });
+    jqueryMap.$p.mouseleave(function () {
       jqueryMap.$wechat.toggle();
     });
   };
