@@ -67,3 +67,7 @@
   background: url("../img/crumb/icon-right.png") no-repeat center center;
   background-size: 100%;
 }
+
+.mentorName{
+	display: inline;
+}

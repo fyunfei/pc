@@ -106,6 +106,10 @@ a:hover {
   color: #383838;
   line-height: 30px;
 }
+.child-page .module.module-01 .main .content p span{
+	display: inline;
+	width: 20%;
+}
 .child-page .module.module-01 .main .content p.title {
   font-size: 24px;
   font-weight: bold;
