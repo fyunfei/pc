@@ -111,13 +111,13 @@ var data = (function () {
         'forum-book' : '嘉伟导师十本好书推荐',
         'page1' : '振宇导师',
         'page2' : '茉言导师',
-        'page3' : '皓霖导师',
+        'page3' : '何风导师',
         'page4' : '沐兮导师',
         'page5' : 'Hope导师',
         'page6' : '子淑导师',
         'page7' : '星冉导师',
         'page8' : '文筠导师',
-				'page11': '泊乔导师'
+				'page11': '白舒导师'
       }
     },
     stateMap = {
