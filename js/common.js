@@ -11,12 +11,12 @@
 		mentor003: '沐兮',
 		mentor004: '星冉',
 		mentor005: '子淑',
-		mentor006: '皓霖',
+		mentor006: '何风',
 		mentor007: 'Hope',
 		mentor008: '文筠',
 		mentor009: '倾楚',
 		mentor010: '谧沙',
-		mentor011: '泊乔'
+		mentor011: '白舒'
 	};
 
 	var updateMentorName = function(targetDom, mentorName) {
